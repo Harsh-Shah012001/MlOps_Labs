@@ -1,0 +1,117 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            ztd4ihb4x16shchu35ezj3c1d93dv3vn:
+                codePath: f:\MS in CS\MlOps\Labs\Lab4\W&B\Lab2.ipynb
+                codePathLocal: Lab2.ipynb
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.9"
+                disk:
+                    /:
+                        total: "322122543104"
+                        used: "51945603072"
+                email: shah.harsh8@northeastern.edu
+                executable: c:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe
+                git:
+                    remote: https://github.com/Harsh-Shah012001/MlOps_Labs.git
+                gpu: NVIDIA GeForce GTX 1650
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 896
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce GTX 1650
+                      uuid: GPU-1858bfb6-ed25-bb24-f7a9-bd0de1338c80
+                host: LAPTOP-P3G5I99D
+                memory:
+                    total: "7907377152"
+                os: Windows-11-10.0.26100-SP0
+                program: f:\MS in CS\MlOps\Labs\Lab4\W&B\Lab2.ipynb
+                python: CPython 3.12.6
+                root: f:\MS in CS\MlOps\Labs\Lab4\W&B
+                startedAt: "2025-11-04T00:41:42.819171Z"
+                writerId: ztd4ihb4x16shchu35ezj3c1d93dv3vn
+        m:
+            - "1": batch/batch_step
+              "6":
+                - 3
+              "7": []
+            - "2": batch/*
+              "5": 1
+              "6":
+                - 1
+              "7": []
+        python_version: 3.12.6
+        t:
+            "1":
+                - 2
+                - 3
+                - 49
+                - 105
+            "2":
+                - 2
+                - 3
+                - 49
+                - 105
+            "3":
+                - 2
+                - 7
+                - 13
+                - 16
+                - 38
+                - 39
+                - 61
+            "4": 3.12.6
+            "5": 0.22.3
+            "8":
+                - 1
+                - 3
+            "12": 0.22.3
+            "13": windows-amd64
+        visualize:
+            confusion_matrix:
+                panel_config:
+                    fieldSettings:
+                        Actual: Actual
+                        Predicted: Predicted
+                        nPredictions: nPredictions
+                    panelDefId: wandb/confusion_matrix/v1
+                    stringSettings:
+                        title: Confusion Matrix Curve
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: confusion_matrix_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+batch_size:
+    value: 64
+conv1_filters:
+    value: 32
+conv2_filters:
+    value: 64
+dense_size:
+    value: 128
+dropout:
+    value: 0.3
+epochs:
+    value: 5
+learn_rate:
+    value: 0.001

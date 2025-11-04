@@ -1,0 +1,24 @@
+[2025-10-07T00:36:29.139+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: wine_clustering_pipeline.evaluate_wine_clusters manual__2025-10-07T00:35:45.550633+00:00 [queued]>
+[2025-10-07T00:36:29.153+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: wine_clustering_pipeline.evaluate_wine_clusters manual__2025-10-07T00:35:45.550633+00:00 [queued]>
+[2025-10-07T00:36:29.154+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-10-07T00:36:29.154+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2025-10-07T00:36:29.158+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-10-07T00:36:29.179+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): evaluate_wine_clusters> on 2025-10-07 00:35:45.550633+00:00
+[2025-10-07T00:36:29.191+0000] {standard_task_runner.py:55} INFO - Started process 364 to run task
+[2025-10-07T00:36:29.195+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'wine_clustering_pipeline', 'evaluate_wine_clusters', 'manual__2025-10-07T00:35:45.550633+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/***.py', '--cfg-path', '/tmp/tmp19k7f03k']
+[2025-10-07T00:36:29.196+0000] {standard_task_runner.py:83} INFO - Job 26: Subtask evaluate_wine_clusters
+[2025-10-07T00:36:29.294+0000] {task_command.py:388} INFO - Running <TaskInstance: wine_clustering_pipeline.evaluate_wine_clusters manual__2025-10-07T00:35:45.550633+00:00 [running]> on host fce8f86629d7
+[2025-10-07T00:36:29.403+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=harsh_shah
+AIRFLOW_CTX_DAG_ID=wine_clustering_pipeline
+AIRFLOW_CTX_TASK_ID=evaluate_wine_clusters
+AIRFLOW_CTX_EXECUTION_DATE=2025-10-07T00:35:45.550633+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-10-07T00:35:45.550633+00:00
+[2025-10-07T00:36:29.412+0000] {logging_mixin.py:137} INFO - Wine Cluster distribution: Counter({2: 65, 1: 62, 0: 51})
+[2025-10-07T00:36:29.412+0000] {python.py:177} INFO - Done. Returned value was: {1: 62, 2: 65, 0: 51}
+[2025-10-07T00:36:29.442+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=wine_clustering_pipeline, task_id=evaluate_wine_clusters, execution_date=20251007T003545, start_date=20251007T003629, end_date=20251007T003629
+[2025-10-07T00:36:29.488+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-10-07T00:36:29.511+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
