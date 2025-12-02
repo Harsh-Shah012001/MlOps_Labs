@@ -1,3 +1,4 @@
+![alt text](image.png)
 # Temperature Converter - MLOps Lab
 
 A simple Python project demonstrating automated testing and CI/CD with GitHub Actions.
