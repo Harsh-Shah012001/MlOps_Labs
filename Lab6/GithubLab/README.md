@@ -2,23 +2,6 @@
 
 A simple Python project demonstrating automated testing and CI/CD with GitHub Actions.
 
-## Project Structure
-```
-project/
-├── src/
-│   └── temperature.py       # Temperature conversion functions
-├── test/
-│   ├── test_pytest.py       # Pytest test suite
-│   └── test_unittest.py     # Unittest test suite
-├── .github/
-│   └── workflows/
-│       ├── pytest_action.yml
-│       └── unittest_action.yml
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
 ## Features
 - Convert between Celsius, Fahrenheit, and Kelvin
 - Automated testing with Pytest and Unittest
